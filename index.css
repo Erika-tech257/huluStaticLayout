@@ -1,7 +1,7 @@
 html, body {
     margin: 0px;
-    padding: 5px;
-
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 
@@ -117,6 +117,7 @@ h6{
     left:630px;
     top:480px;
 }
+
   
 .backgroundWrapper,html,.mainWrapper{
     background-image: url( "https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48");
@@ -126,6 +127,11 @@ h6{
     background-attachment:fixed;
     
     
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: column;
 }
 
 #buttonWrapperOne{
@@ -227,7 +233,7 @@ h3{
 
 
 /* Second page background */
-.flex-container{
+.secondBackground{
     background-image: url("https://www.hulu.com/static/hitch/s3/2020-07/Tablet-768_Content-Grid%20%281%29.jpg?Zn7GCNjjcIjjFR5p3aAiSY3w7gGqtVx6");
     display: flex;
     justify-content: center;
